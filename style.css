@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 70px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 50%;
+   border-radius: 12px;
+   padding: 50px;
+   background-image: url('bg.PNG');
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.icons{
+    margin-top: 15px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 80 px;
+}
+
+.songItem{
+    height: 100px;
+    display: flex;
+    background-color: slategray;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 77px;
+    margin: 0 23px;
+    border-radius: 40px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+.AboutUs{
+    padding-left: 0%;
+    background-color: beige;
+    font-size: large;
+}
+.content{
+    padding-top: 1%;
+    padding-left: 2%;
+    font-family: 'Verdana', sans-serif;
+    font-size: larger;
+}
+
+.download{
+    padding-left: 0%;
+    padding-bottom: 1%;
+    background-color: beige;
+    font-size: large;
+}
+.download_content{
+    padding-top: 1%;
+    padding-left: 2%;
+    font-family: 'Verdana', sans-serif;
+    font-size: larger;
+}
+    
+.History{
+    padding-left: 0%;
+    background-color: beige;
+    font-size: large;
+}
+.History_content{
+    padding-top: 1%;
+    padding-left: 2%;
+    font-family: 'Verdana', sans-serif;
+    font-size: larger;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: violet;
+    }
+  }
